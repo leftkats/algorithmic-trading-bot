@@ -11,6 +11,6 @@ Output signal case:
 ```
 sig < 0	-> SELL
 sig = 0	-> NO POSITION
-sig > 1	-> BUY
+sig > 0	-> BUY
 ```
 
