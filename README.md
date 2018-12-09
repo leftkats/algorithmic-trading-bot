@@ -9,8 +9,8 @@ The application that will be presented supports real time processing and decisio
 Implemented in R as described [here](https://dspace.mit.edu/openaccess-disseminate/1721.1/101044).
 Output signal case:
 ```
-< 0	-> SELL
-= 0	-> NO POSITION
-> 1	-> BUY
+sig < 0	-> SELL
+sig = 0	-> NO POSITION
+sig > 1	-> BUY
 ```
 
