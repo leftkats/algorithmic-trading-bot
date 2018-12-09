@@ -1,4 +1,4 @@
-# algorithmic-trading-bot (C.E.I.D thesis)
+# Real time stock prediction tool
 The application that will be presented supports real time processing and decision making, interacting with the BtcChina websocket API.
 
 ## Built With
@@ -6,5 +6,11 @@ The application that will be presented supports real time processing and decisio
 ## Connection
 * [socket.io-java-client](https://github.com/nkzawa/socket.io-java-client)
 ## Prediction Model
-Implemented in R as described [here](https://dspace.mit.edu/openaccess-disseminate/1721.1/101044)
+Implemented in R as described [here](https://dspace.mit.edu/openaccess-disseminate/1721.1/101044).
+Output signal case:
+```
+< 0	-> SELL
+= 0	-> NO POSITION
+> 1	-> BUY
+```
 
